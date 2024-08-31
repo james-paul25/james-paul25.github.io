@@ -1,0 +1,72 @@
+
+/* Body styling to center the container */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Styling for the main container */
+#container {
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+#list {
+    width: 75%;
+    padding: 10px;
+    margin-right: 1px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Image inside the button */
+button img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Remove button styling */
+#remove {
+    margin-top: 20px;
+    background-color: #e72618; /* Different color for remove button */
+}
+
+/* Result container styling */
+#result-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Styling for each list item */
+ul {
+    list-style-type: none;
+    padding: 25px;
+}
+
+ul li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
